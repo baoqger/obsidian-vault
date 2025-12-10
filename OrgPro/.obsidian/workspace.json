@@ -6,6 +6,7 @@
       {
         "id": "73dbf55eaf4a717e",
         "type": "tabs",
+        "dimension": 83.60655737704919,
         "children": [
           {
             "id": "9d321e1f2921dfcd",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "101.md",
+                "file": "AI/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "101"
+              "title": "代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "1f6d3f5cee29bcfd",
         "type": "tabs",
+        "dimension": 16.393442622950815,
         "children": [
           {
             "id": "fa80deca09395dba",
@@ -94,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "right": {
     "id": "389e8b560a8cfafd",
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "101.md",
+                "file": "Foundry Agent Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 101"
+              "title": "Backlinks for Foundry Agent Service"
             }
           },
           {
@@ -129,12 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "101.md",
+                "file": "Foundry Agent Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 101"
+              "title": "Outgoing links from Foundry Agent Service"
             }
           },
           {
@@ -172,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "101.md",
+                "file": "Foundry Agent Service.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 101"
+              "title": "Outline of Foundry Agent Service"
             }
           }
         ]
@@ -201,6 +203,12 @@
   },
   "active": "9d321e1f2921dfcd",
   "lastOpenFiles": [
-    "101.md"
+    "Untitled.md",
+    "AI/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
+    "AI",
+    "Foundry Agent Service.md",
+    "Pasted image 20251208194743.png",
+    "Pasted image 20251208195447.png",
+    "Untitled.base"
   ]
 }
