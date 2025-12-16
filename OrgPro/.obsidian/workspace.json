@@ -4,39 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73dbf55eaf4a717e",
+        "id": "0da708933b715ffc",
         "type": "tabs",
-        "dimension": 69.12280701754386,
         "children": [
           {
-            "id": "9d321e1f2921dfcd",
+            "id": "95a6b2628cb28f0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agent/Auto generate MCP server from OpenAPI Spec.md",
+                "file": "Plan/Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Auto generate MCP server from OpenAPI Spec"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1f6d3f5cee29bcfd",
-        "type": "tabs",
-        "dimension": 30.87719298245614,
-        "children": [
-          {
-            "id": "fa80deca09395dba",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Plan"
             }
           }
         ]
@@ -201,29 +183,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "9d321e1f2921dfcd",
+  "active": "95a6b2628cb28f0b",
   "lastOpenFiles": [
-    "Event/AI cloud.md",
+    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
+    "Plan/Plan.md",
+    "Plan",
+    "images/Pasted image 20251215211314.png",
+    "images/Pasted image 20251215210455.png",
+    "images/Pasted image 20251215210209.png",
+    "images/Pasted image 20251215205407.png",
+    "Azure AI/azure ai foundry blog.md",
+    "Azure AI/Azure AI CLI.md",
+    "信息来源/收录.md",
+    "Azure AI/fine tune model on Azure AI Foundry.md",
+    "Untitled.canvas",
+    "GenAI/how LLM works.md",
     "Agent/Auto generate MCP server from OpenAPI Spec.md",
+    "信息来源",
+    "Agent/LLM Routing.md",
     "Agent/self correction agent.md",
-    "Event",
-    "Active Wizard Blog/Mastering LangGraph.md",
-    "Agent",
-    "Deep learning/epoch.md",
-    "Active Wizard Blog",
-    "Deep learning/loss function vs cost function.md",
-    "from zero to hero/building micrograd.md",
+    "Agent Frameworks/Mastering LangGraph.md",
+    "GenAI/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
     "Deep learning/batch size.md",
+    "Deep learning/epoch.md",
+    "Deep learning/loss function vs cost function.md",
+    "Untitled.base",
+    "Agent/Agent engineering.md",
+    "images",
+    "images/Pasted image 20251213182939.png",
+    "Event/AI cloud.md",
+    "Event",
+    "Agent",
+    "Agent Frameworks",
+    "from zero to hero/building micrograd.md",
     "from zero to hero",
     "Deep learning/梯度下降.md",
-    "AI/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
     "Deep learning",
-    "Azure AI/Foundry Agent Service.md",
     "Azure AI",
-    "Untitled.md",
-    "AI",
     "Azure AI/Pasted image 20251208194743.png",
-    "Azure AI/Pasted image 20251208195447.png",
-    "Untitled.base"
+    "Azure AI/Pasted image 20251208195447.png"
   ]
 }
