@@ -183,8 +183,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "2826bd997649b923",
+  "active": "95a6b2628cb28f0b",
   "lastOpenFiles": [
+    "images/Pasted image 20251220204927.png",
+    "images/Pasted image 20251220120926.png",
+    "images/Pasted image 20251220120843.png",
+    "images/Pasted image 20251220095757.png",
+    "images/Pasted image 20251220095410.png",
+    "images/Pasted image 20251220094322.png",
+    "images/Pasted image 20251220094159.png",
+    "images/Pasted image 20251220093040.png",
+    "images/Pasted image 20251220085218.png",
     "images/Pasted image 20251219214551.png",
     "GenAI/fine tune.md",
     "Deep learning/batch size.md",
@@ -196,9 +205,6 @@
     "Plan/Plan.md",
     "Plan",
     "images/Pasted image 20251215211314.png",
-    "images/Pasted image 20251215210455.png",
-    "images/Pasted image 20251215210209.png",
-    "images/Pasted image 20251215205407.png",
     "Azure AI/azure ai foundry blog.md",
     "Azure AI/Azure AI CLI.md",
     "信息来源/收录.md",
@@ -213,7 +219,6 @@
     "Untitled.base",
     "Agent/Agent engineering.md",
     "images",
-    "images/Pasted image 20251213182939.png",
     "Event/AI cloud.md",
     "Event",
     "Agent",
@@ -222,8 +227,6 @@
     "from zero to hero",
     "Deep learning/梯度下降.md",
     "Deep learning",
-    "Azure AI",
-    "Azure AI/Pasted image 20251208194743.png",
-    "Azure AI/Pasted image 20251208195447.png"
+    "Azure AI"
   ]
 }
