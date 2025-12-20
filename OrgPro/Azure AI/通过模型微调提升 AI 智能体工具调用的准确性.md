@@ -94,6 +94,10 @@ Agent调用工具(Tool)来获取外界数据或者完成一些任务, 这是Agen
 	- 模型破坏了多轮对话中的状态连续性
 
 
+fine tune model
+
+![[Pasted image 20251219214551.png]]
+
 
 
 
