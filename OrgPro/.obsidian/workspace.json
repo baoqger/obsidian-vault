@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
+                "file": "Agent/Towards a Science of Scaling Agent Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通过模型微调提升 AI 智能体工具调用的准确性"
+              "title": "Towards a Science of Scaling Agent Systems"
             }
           }
         ]
@@ -185,6 +185,11 @@
   },
   "active": "95a6b2628cb28f0b",
   "lastOpenFiles": [
+    "images/Pasted image 20251221083113.png",
+    "信息来源/收录.md",
+    "Agent/Towards a Science of Scaling Agent Systems.md",
+    "Agent/Deep Agent.md",
+    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
     "images/Pasted image 20251220204927.png",
     "images/Pasted image 20251220120926.png",
     "images/Pasted image 20251220120843.png",
@@ -200,14 +205,11 @@
     "Deep learning/epoch.md",
     "Deep learning/loss function vs cost function.md",
     "GenAI/读书笔记 - how LLM works.md",
-    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
     "GenAI/GPT in 60 Lines of NumPy.md",
     "Plan/Plan.md",
     "Plan",
-    "images/Pasted image 20251215211314.png",
     "Azure AI/azure ai foundry blog.md",
     "Azure AI/Azure AI CLI.md",
-    "信息来源/收录.md",
     "Azure AI/fine tune model on Azure AI Foundry.md",
     "Untitled.canvas",
     "Agent/Auto generate MCP server from OpenAPI Spec.md",
