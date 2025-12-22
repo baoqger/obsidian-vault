@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 279.5
   },
   "right": {
     "id": "389e8b560a8cfafd",
@@ -184,8 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "95a6b2628cb28f0b",
+  "active": "2826bd997649b923",
   "lastOpenFiles": [
+    "images/Pasted image 20251223060056.png",
+    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
+    "images/Pasted image 20251222152342.png",
+    "Azure AI/Azure AI CLI.md",
+    "Azure AI/Zava项目-合成数据详解.md",
+    "Azure AI/azure ai foundry blog.md",
+    "images/Pasted image 20251222142232.png",
     "images/Pasted image 20251222114634.png",
     "images/Pasted image 20251222114609.png",
     "images/Pasted image 20251222114500.png",
@@ -193,8 +199,6 @@
     "images/Pasted image 20251222093743.png",
     "images/Pasted image 20251222093356.png",
     "images/Pasted image 20251222091610.png",
-    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
-    "Azure AI/Zava项目-合成数据详解.md",
     "信息来源/收录.md",
     "Agent/Agent engineering.md",
     "Agent/Auto generate MCP server from OpenAPI Spec.md",
@@ -205,9 +209,6 @@
     "MCT",
     "images/Pasted image 20251221083113.png",
     "Agent/Deep Agent.md",
-    "images/Pasted image 20251220204927.png",
-    "images/Pasted image 20251220120926.png",
-    "images/Pasted image 20251220120843.png",
     "GenAI/fine tune.md",
     "Deep learning/batch size.md",
     "Deep learning/epoch.md",
@@ -216,8 +217,6 @@
     "GenAI/GPT in 60 Lines of NumPy.md",
     "Plan/Plan.md",
     "Plan",
-    "Azure AI/azure ai foundry blog.md",
-    "Azure AI/Azure AI CLI.md",
     "Azure AI/fine tune model on Azure AI Foundry.md",
     "Untitled.canvas",
     "信息来源",
