@@ -27,10 +27,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "images/Pasted image 20251226084424.png"
+                "file": "images/Pasted image 20251226085132.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20251226084424"
+              "title": "Pasted image 20251226085132"
             }
           }
         ],
@@ -198,15 +198,18 @@
   },
   "active": "2826bd997649b923",
   "lastOpenFiles": [
+    "图解大模型/大模型通俗解读2：大模型真正的觉醒——注意力机制.md",
+    "images/Pasted image 20251226085238.png",
+    "images/Pasted image 20251226085229.png",
+    "images/Pasted image 20251226085223.png",
+    "images/Pasted image 20251226085217.png",
+    "images/Pasted image 20251226085210.png",
+    "images/Pasted image 20251226085202.png",
+    "images/Pasted image 20251226085144.png",
+    "images/Pasted image 20251226085132.png",
+    "images/Pasted image 20251226084424.png",
     "图解大模型/大模型通俗解读1：一切的起点Embedding.md",
     "images/Pasted image 20251226084522.png",
-    "images/Pasted image 20251226084515.png",
-    "images/Pasted image 20251226084507.png",
-    "images/Pasted image 20251226084458.png",
-    "images/Pasted image 20251226084451.png",
-    "images/Pasted image 20251226084443.png",
-    "images/Pasted image 20251226084435.png",
-    "images/Pasted image 20251226084424.png",
     "Deep learning/batch size.md",
     "图解大模型",
     "信息来源/收录.md",
@@ -229,11 +232,8 @@
     "GenAI 理论/GPT in 60 Lines of NumPy.md",
     "GenAI 理论/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
     "Agent/Agent engineering.md",
-    "images/Pasted image 20251224132710.png",
-    "images/Pasted image 20251224122253.png",
     "MCT/info.md",
     "Deep learning/from zero to hero.md",
-    "from zero to hero/building micrograd.md",
     "MCT",
     "Plan",
     "Untitled.canvas",
