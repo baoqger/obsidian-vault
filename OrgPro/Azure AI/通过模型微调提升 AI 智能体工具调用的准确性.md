@@ -169,4 +169,15 @@ Microsoft Foundry 在微调工作流中可以轻松支持合成数据生成
 
 ![[Pasted image 20251222152342.png]]
 
+fine tune的成本来自两个方面: training + host
+- training的成本基于这个公式: # training tokens x # epochs x training price per token (这个公式只对SFT有效)
+- hosting的成本按照小时计费
 
+比如基于gpt-4.1-mini的fine tune, 对于global这个tier, cost如下:
+
+![[Pasted image 20251224094920.png]]
+比如我们上面那个fine tune job, training token billed是6M, epochs是3, 所以这个job的成本是
+
+($5/1M) x 3 x 6M = $90
+
+host的成本 $40/day

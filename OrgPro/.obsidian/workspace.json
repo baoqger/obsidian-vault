@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure AI/Zava项目-合成数据详解.md",
+                "file": "图解大模型/大模型通俗解读1：一切的起点Embedding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zava项目-合成数据详解"
+              "title": "大模型通俗解读1：一切的起点Embedding"
+            }
+          },
+          {
+            "id": "b80b44b3bbf6f111",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20251226084424.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251226084424"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 378.50418853759766
   },
   "right": {
     "id": "389e8b560a8cfafd",
@@ -185,52 +198,51 @@
   },
   "active": "2826bd997649b923",
   "lastOpenFiles": [
-    "images/Pasted image 20251223060056.png",
-    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
-    "images/Pasted image 20251222152342.png",
-    "Azure AI/Azure AI CLI.md",
-    "Azure AI/Zava项目-合成数据详解.md",
-    "Azure AI/azure ai foundry blog.md",
-    "images/Pasted image 20251222142232.png",
-    "images/Pasted image 20251222114634.png",
-    "images/Pasted image 20251222114609.png",
-    "images/Pasted image 20251222114500.png",
-    "images/Pasted image 20251222095146.png",
-    "images/Pasted image 20251222093743.png",
-    "images/Pasted image 20251222093356.png",
-    "images/Pasted image 20251222091610.png",
+    "图解大模型/大模型通俗解读1：一切的起点Embedding.md",
+    "images/Pasted image 20251226084522.png",
+    "images/Pasted image 20251226084515.png",
+    "images/Pasted image 20251226084507.png",
+    "images/Pasted image 20251226084458.png",
+    "images/Pasted image 20251226084451.png",
+    "images/Pasted image 20251226084443.png",
+    "images/Pasted image 20251226084435.png",
+    "images/Pasted image 20251226084424.png",
+    "Deep learning/batch size.md",
+    "图解大模型",
     "信息来源/收录.md",
-    "Agent/Agent engineering.md",
+    "Agent/Measuring Agents in Production.md",
     "Agent/Auto generate MCP server from OpenAPI Spec.md",
+    "Agent/Building MCP servers in the real world.md",
+    "Agent/Coding Agent.md",
+    "Agent/Deep Agent.md",
     "Agent/LLM Routing.md",
     "Agent/Towards a Science of Scaling Agent Systems.md",
-    "Agent/self correction agent.md",
+    "Agent/从0到1 Agent Design pattern.md",
+    "Azure AI/Azure AI CLI.md",
+    "Azure AI/azure ai foundry blog.md",
+    "Azure AI/cost management for fine tuning.md",
+    "Azure AI/Reinforcement Fine-Tuning (RFT).md",
+    "Azure AI/Zava SFT.md",
+    "Azure AI/Zava项目-合成数据详解.md",
+    "Azure AI/通过模型微调提升 AI 智能体工具调用的准确性.md",
+    "GenAI 理论/fine tune.md",
+    "GenAI 理论/GPT in 60 Lines of NumPy.md",
+    "GenAI 理论/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
+    "Agent/Agent engineering.md",
+    "images/Pasted image 20251224132710.png",
+    "images/Pasted image 20251224122253.png",
     "MCT/info.md",
+    "Deep learning/from zero to hero.md",
+    "from zero to hero/building micrograd.md",
     "MCT",
-    "images/Pasted image 20251221083113.png",
-    "Agent/Deep Agent.md",
-    "GenAI/fine tune.md",
-    "Deep learning/batch size.md",
-    "Deep learning/epoch.md",
-    "Deep learning/loss function vs cost function.md",
-    "GenAI/读书笔记 - how LLM works.md",
-    "GenAI/GPT in 60 Lines of NumPy.md",
-    "Plan/Plan.md",
     "Plan",
-    "Azure AI/fine tune model on Azure AI Foundry.md",
     "Untitled.canvas",
     "信息来源",
-    "Agent Frameworks/Mastering LangGraph.md",
-    "GenAI/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
     "Untitled.base",
     "images",
-    "Event/AI cloud.md",
     "Event",
     "Agent",
     "Agent Frameworks",
-    "from zero to hero/building micrograd.md",
-    "from zero to hero",
-    "Deep learning/梯度下降.md",
-    "Deep learning"
+    "from zero to hero"
   ]
 }

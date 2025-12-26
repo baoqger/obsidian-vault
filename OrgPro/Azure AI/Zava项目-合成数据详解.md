@@ -4,6 +4,7 @@
 
 Foundry平台生成的合成数据包括两个文件: train and valid, 都是jsonl数据. 其中train dataset 271行, 也就是有271条训练数据! 每一个行是一个训练数据, 结构如下: 
 ![[Pasted image 20251222093356.png]]
+#### 其中tools就是mcp的工具列表, 每条数据都是一样的, 没有特征性
 #### 其中messages是system, user, assistant, tool的chat记录, 构成一个conversation
 
 ![[Pasted image 20251222093743.png]]
@@ -128,6 +129,9 @@ ASSISTANT  --(calls exchange_delivered_order_items)-->
 - 随后立即发起一次正确的 get_user_details 调用； 
 - 正确传递并保持工具调用参数一致（例如 user_id 前后一致、无凭空编造/幻觉参数）。
 
+Note: 这个挺重要, 让SFT的目标更加明确了! 这也是针对agent tool calling的失败案例进行的针对性的提升!! 
+
+![[Pasted image 20251223161459.png]]
 ###   工具调用（Per-Tool-Call）的评估设计
 
 合成测试数据集最初由多轮对话构成，每个场景中包含多次工具调用。
