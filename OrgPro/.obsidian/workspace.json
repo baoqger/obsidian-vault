@@ -27,10 +27,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "images/Pasted image 20251226085132.png"
+                "file": "images/Pasted image 20251226093636.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20251226085132"
+              "title": "Pasted image 20251226093636"
             }
           }
         ],
@@ -198,18 +198,21 @@
   },
   "active": "2826bd997649b923",
   "lastOpenFiles": [
+    "图解大模型/大模型通俗解读5：搞懂顺序—— 位置编码.md",
+    "images/Pasted image 20251226095849.png",
+    "images/Pasted image 20251226095844.png",
+    "images/Pasted image 20251226095838.png",
+    "images/Pasted image 20251226095832.png",
+    "images/Pasted image 20251226095825.png",
+    "images/Pasted image 20251226095820.png",
+    "images/Pasted image 20251226095814.png",
+    "images/Pasted image 20251226095807.png",
+    "images/Pasted image 20251226095801.png",
+    "images/Pasted image 20251226093636.png",
+    "图解大模型/大模型通俗解读4：九头蛇的思考 —— 多头注意力机制.md",
+    "图解大模型/大模型通俗解读3：QKV 的数学魔法- 揭秘万能公式.md",
     "图解大模型/大模型通俗解读2：大模型真正的觉醒——注意力机制.md",
-    "images/Pasted image 20251226085238.png",
-    "images/Pasted image 20251226085229.png",
-    "images/Pasted image 20251226085223.png",
-    "images/Pasted image 20251226085217.png",
-    "images/Pasted image 20251226085210.png",
-    "images/Pasted image 20251226085202.png",
-    "images/Pasted image 20251226085144.png",
-    "images/Pasted image 20251226085132.png",
-    "images/Pasted image 20251226084424.png",
     "图解大模型/大模型通俗解读1：一切的起点Embedding.md",
-    "images/Pasted image 20251226084522.png",
     "Deep learning/batch size.md",
     "图解大模型",
     "信息来源/收录.md",
@@ -231,9 +234,6 @@
     "GenAI 理论/fine tune.md",
     "GenAI 理论/GPT in 60 Lines of NumPy.md",
     "GenAI 理论/代码因其“可验证”的特性，被视为能够率先实现通用人工智能（AGI）的领域.md",
-    "Agent/Agent engineering.md",
-    "MCT/info.md",
-    "Deep learning/from zero to hero.md",
     "MCT",
     "Plan",
     "Untitled.canvas",
