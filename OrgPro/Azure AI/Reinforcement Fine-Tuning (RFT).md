@@ -1,7 +1,7 @@
 
 ### 强化式微调（RFT）
 
-监督式微调显著提升了 Zava 零售代理在**短且由系统指令驱动**的工具调用序列上的表现，例如：
+监督式微调(SFT)显著提升了 Zava 零售代理在**短且由系统指令驱动**的工具调用序列上的表现，例如：
 
 - 姓名/邮编查询 → 获取用户档案
 - 简单的订单查询
@@ -21,9 +21,9 @@
 
 ![[Pasted image 20251224122253.png]]
 
-强化式微调（RFT）训练模型去**最大化**一个基于**整个多轮输出**计算得到的奖励，而不是孤立地预测下一次工具调用。
+强化式微调（RFT）训练模型去**最大化**一个基于**整个多轮输出**计算得到的奖励，而不是孤立地预测下一次工具调用。(RFT trains the model to maximize a **reward** computed over the _entire_ multi-turn output rather than predicting the next tool call in isolation.)
 
-在我们的场景中，奖励来自一个**自定义的、基于 LLM 的评测器（grader）**，它会检查：
+在我们的场景中，奖励来自一个**自定义的、基于 LLM 的评测器（custom LLM-based grader）**，它会检查：
 
 **退货政策正确性**
 
@@ -53,6 +53,52 @@ RFT 教会模型一个序列为什么对或错——以及如何优化它。
 > 否则提供门店储值/店铺积分，或拒绝。”
 
 即使是很强的基础模型，在这类高度依赖决策的场景中也常常表现吃力，除非通过基于奖励的优化，让模型在长对话上进行训练。
+(Even a strong base model struggles with such decision-heavy scenarios unless it is trained with **reward-driven optimization** over long conversations.)
 
 在接下来的章节中，我们将准备 RFT 数据集、设计奖励函数，并运行一个 RFT 训练任务，从而显著提升Agent遵循复杂退货政策逻辑的能力(deep return-policy logic)。
 
+### RFT 数据集（多订单、政策密集场景）
+
+强化微调（Reinforcement Fine-Tuning，RFT）需要与监督微调（SFT）不同的数据集。  
+RFT不是教模型模仿训练数据，而是教模型使用奖励函数在复杂的多项返回政策场景(complex, multi-item return-policy scenarios)中优化正确性。
+
+在这个笔记本中使用的数据集位于：
+
+- data/rft/rft_train.jsonl
+- data/rft/rft_test.jsonl
+
+每条记录包括：
+
+- 多轮对话（通常为7–12轮）
+- 同一请求中的多个订单和多个item_id
+- 混合的资格窗口（电子产品、一般商品、仅缺陷商品）
+- 账户级别的限制（例如，仅限商店信用退款）
+- 模型必须解释的先前工具输出
+- 单轮中具有不同政策和结果的多个项目
+
+这些场景模拟真实客户服务的复杂性，迫使模型对以下内容进行推理：
+
+- 购买日期
+- 类别规则
+- 退货时间窗口
+- 缺陷条件
+- 退款路由规则
+- 多步骤逻辑依赖关系
+
+这种类型的推理不能仅通过SFT可靠地学习。(决策/思考过程是不能预先人工label的)
+
+### 为什么这个数据集适合RFT
+
+该数据集故意设计为“政策密集型”，包含如下场景：
+
+- 在单一工作流程中进行7–10次工具调用
+- 在同一对话中混合资格
+- 冲突的政策维度（类别 × 天数 × 条件 × 账户规则）
+- 跨订单依赖关系
+- 其正确性不能通过匹配转录来判断的对话
+
+SFT教会工具调用的语法。  
+RFT教会决策质量(**decision-making quality**)。
+
+接下来，我们设计奖励函数（第8.3节），该函数评估整个工具调用工作流程并返回一个数值分数。  
+这成为模型在RFT训练过程中使用的信号。

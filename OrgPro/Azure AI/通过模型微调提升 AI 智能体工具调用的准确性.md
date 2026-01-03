@@ -181,3 +181,6 @@ fine tune的成本来自两个方面: training + host
 ($5/1M) x 3 x 6M = $90
 
 host的成本 $40/day
+
+
+![[Pasted image 20260101210914.png]]
